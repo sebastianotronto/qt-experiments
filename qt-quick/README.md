@@ -6,7 +6,16 @@ This is a UI for nissy written using
 It has been tested only on Linux with QT 6.9.
 Building requires CMake.
 
-To build this project, run
+To build this project, first you have to initialize the `nissy-core`
+submodule. From the parent directory run
+
+```
+git submodule init && git submodule update
+```
+
+This will clone the `nissy-core` repository inside the parent folder.
+
+Then from this folder you can run
 
 ```
 make
