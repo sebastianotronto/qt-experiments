@@ -1,0 +1,8 @@
+qt-quick/build
+qt-quick/nissy
+qt-quick/run
+qt-widgets/Makefile
+qt-widgets/build
+qt-widgets/generated_files
+qt-widgets/nissyqt
+qt-widgets/.qmake*

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+<class>NissyWindow</class>
+<widget class="QMainWindow" name="nissyWindow">
+
+<property name="geometry">
+	<rect>
+		<x>0</x>
+		<y>0</y>
+		<width>800</width>
+		<height>600</height>
+	</rect>
+</property>
+<property name="windowTitle">
+	<string>Nissy 3.0 - preview</string>
+</property>
+
+<widget class="QWidget" name="centralWidget">
+
+<layout class="QVBoxLayout" name="verticalLayout">
+	<item>
+	<widget class="SolverCfgWidget" name="solverCfgWidget" />
+	</item>
+
+	<item>
+	<widget class="QLabel" name="solutionsLabel" />
+	</item>
+</layout>
+
+</widget>
+
+</widget>
+</ui>

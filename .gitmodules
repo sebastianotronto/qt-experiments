@@ -1,0 +1,3 @@
+[submodule "nissy-core"]
+	path = nissy-core
+	url = https://git.tronto.net/nissy-core
